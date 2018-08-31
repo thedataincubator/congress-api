@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import requests
 from urllib.parse import urljoin
-from .errors import CongressError
+from .errors import CongressError, APIError
 
 BASE_URL = 'https://api.propublica.org/congress/{version}'
 
