@@ -14,6 +14,6 @@ setup(
     test_require=[
         'pytest',
         'responses'
-    ]
+    ],
     zip_safe=False
 )
