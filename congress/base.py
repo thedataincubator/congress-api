@@ -14,7 +14,6 @@ class Client:
         self._parse = parser.parse
         self._validate = validator.validate
 
-
     def _headers(self):
         return {
             'X-API-KEY': self._api_key
@@ -28,7 +27,6 @@ class Client:
             raise CongressError
         return self._parse(json_)
         
-
     def build_url(self, *args):
         url = BASE_URL.format(version=self._version)
         for arg in args:
@@ -49,6 +47,7 @@ class BaseValidator:
         pass
 
 class BaseParser:
+    
     def parse(self, json_):
         return json_
 
