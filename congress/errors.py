@@ -1,0 +1,2 @@
+class CongressError(Exception):
+    pass
