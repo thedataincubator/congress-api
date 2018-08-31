@@ -8,7 +8,12 @@ setup(
     license='MIT',
     packages=['congress'],
     install_requires=[
-        'requests'
+        'requests',
+        'pandas'
     ],
+    test_require=[
+        'pytest',
+        'responses'
+    ]
     zip_safe=False
 )
