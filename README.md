@@ -1,5 +1,5 @@
 # Congress [![Build Status](https://travis-ci.org/thedataincubator/congress-api.svg?branch=master)](https://travis-ci.org/thedataincubator/congress-api)
-
+ this is the API address for propublica: [propublica link] (https://projects.propublica.org/api-docs/congress-api/)
 
 To get started clone the repo locally and
 1. Ask Zach to get permissions to push branches
