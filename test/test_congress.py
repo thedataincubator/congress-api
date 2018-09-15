@@ -14,15 +14,23 @@ def client():
     api_key = 'testing_key'
     return Client(api_key, BaseParser(), BaseValidator())
 
+@pytest.fixture
+def read_json():
+    def json_reader(json_name):
+        assert os.path.exists(json_name)
+        with open(json_name) as json_file:
+            json_data = json.load(json_file)
+        return json_data
+
+    return json_reader
+
 @responses.activate
-def test_all_members_getter(congress, client):
+def test_all_members_getter(congress, client, read_json):
     congress_no = '115'
     chamber = 'senate'
     # Read json sample.
     json_sample_name = 'test/api_response_samples/all_members_sample.json'
-    assert os.path.exists(json_sample_name)
-    with open(json_sample_name) as json_sample:
-        mock_json = json.load(json_sample)
+    mock_json = read_json(json_sample_name)
     # Mock API response.
     api_url = client.build_url(congress_no, chamber, "members.json")
     responses.add(responses.GET, api_url, json=mock_json, status=200)
@@ -31,13 +39,11 @@ def test_all_members_getter(congress, client):
     assert len(all_members_df.index) == 104
 
 @responses.activate
-def test_member_getter(congress, client):
+def test_member_getter(congress, client, read_json):
     member_id = 'K000388'
     # Read json sample.
     json_sample_name = 'test/api_response_samples/member_sample.json'
-    assert os.path.exists(json_sample_name)
-    with open(json_sample_name) as json_sample:
-        mock_json = json.load(json_sample)
+    mock_json = read_json(json_sample_name)
     # Mock API response.
     api_url = client.build_url('members', '{}.json'.format(member_id))
     responses.add(responses.GET, api_url, json=mock_json, status=200)
