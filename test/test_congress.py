@@ -17,7 +17,6 @@ def client():
 @pytest.fixture
 def read_json():
     def json_reader(json_name):
-        assert os.path.exists(json_name)
         with open(json_name) as json_file:
             json_data = json.load(json_file)
         return json_data
@@ -36,7 +35,7 @@ def test_all_members_getter(congress, client, read_json):
     responses.add(responses.GET, api_url, json=mock_json, status=200)
     # Test get_all_members().
     all_members_df = congress.get_all_members(congress_no, chamber)
-    assert len(all_members_df.index) == 104
+    assert all_members_df.shape == (104, 44)
 
 @responses.activate
 def test_member_getter(congress, client, read_json):
