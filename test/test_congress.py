@@ -19,7 +19,7 @@ def test_all_members_getter(congress, client):
     congress_no = '115'
     chamber = 'senate'
     # Read json sample.
-    json_sample_name = 'test/api_output_samples/all_members_sample.json'
+    json_sample_name = 'test/api_response_samples/all_members_sample.json'
     assert os.path.exists(json_sample_name)
     with open(json_sample_name) as json_sample:
         mock_json = json.load(json_sample)
@@ -34,7 +34,7 @@ def test_all_members_getter(congress, client):
 def test_member_getter(congress, client):
     member_id = 'K000388'
     # Read json sample.
-    json_sample_name = 'test/api_output_samples/member_sample.json'
+    json_sample_name = 'test/api_response_samples/member_sample.json'
     assert os.path.exists(json_sample_name)
     with open(json_sample_name) as json_sample:
         mock_json = json.load(json_sample)
@@ -42,5 +42,5 @@ def test_member_getter(congress, client):
     api_url = client.build_url('members', '{}.json'.format(member_id))
     responses.add(responses.GET, api_url, json=mock_json, status=200)
     # Test get_member().
-    member_output = congress.get_member(member_id)
-    assert member_output == mock_json
+    get_member_response = congress.get_member(member_id)
+    assert get_member_response == mock_json
