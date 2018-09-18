@@ -24,3 +24,4 @@ Run tests with `python -m pytest`
 ## Message for Zach
 
 Hey Zach, I'm demonstrating pull requests. Have a look at this!
+Here's some additional clarifying lines.
