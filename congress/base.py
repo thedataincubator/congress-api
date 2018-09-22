@@ -95,10 +95,11 @@ class Client:
             will send a request of the form
             `https://api.propublica.org/congress/v1/endpoint?key1=val1&key2=val2`.
             See `Passing Parameters In URLs <http://docs.python-requests.org/en/master/user/quickstart/#passing-parameters-in-urls>`_
-            from the `requests` package documentation
 
         Returns
         -------
+            Returns the output of whatever parser object the `Client` was
+            instantiated with
 
         """
         self._validate(*args, **kwargs)
