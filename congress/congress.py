@@ -21,7 +21,7 @@ class Congress:
             meeting of congress to retrieve. I.e., the 115th congress, the
             80th congress, etc. The Propublica API supports 102-115 for
             the House and 80-115 for the Senate
-        chamber : {'house', 'senate'}
+        chamber : str {'house', 'senate'}
 
         Returns
         -------
