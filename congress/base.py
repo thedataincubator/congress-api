@@ -14,8 +14,6 @@ class Client:
     api_key : str
         An API key for authentication
     parser : parser object
-        An object which implements a `parse` method that is capable of
-        handling a json object
     validator : validator object
     version : str
         The version of the api to access. Defaults to 'v1'.
