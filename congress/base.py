@@ -71,6 +71,10 @@ class Client:
         Parameters
         ----------
         *args : Arguments
+            A list of strings that specify an API endpoint. For instance, 
+            calling with `build_url('115', 'house','members.json')` will
+            build a URL of the form 
+            `https://api.propublica.org/congress/v1/115/house/members.json`.
 
         Returns
         -------
