@@ -1,0 +1,1315 @@
+{
+    "status":"OK",
+    "copyright":"Copyright (c) 2018 Pro Publica Inc. All Rights Reserved.",
+    "results":[
+       {
+          "congress": "105",
+          "chamber": "Senate",
+          "num_results": 100,
+          "offset": 0,
+          "members": [
+               {
+                  "id": "S000709",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/S000709.json",
+                  "name": "Arlen Specter",
+                  "party": "R",
+                  "state": "PA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 389,
+                  "party_votes_pct": 68.73,
+                  "rank": 1,
+                  "notes": ""
+                },
+                            {
+                  "id": "J000072",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/J000072.json",
+                  "name": "James M. Jeffords",
+                  "party": "R",
+                  "state": "VT",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 414,
+                  "party_votes_pct": 69.00,
+                  "rank": 2,
+                  "notes": ""
+                },
+                            {
+                  "id": "C000269",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/C000269.json",
+                  "name": "John H. Chafee",
+                  "party": "R",
+                  "state": "RI",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 449,
+                  "party_votes_pct": 74.46,
+                  "rank": 3,
+                  "notes": ""
+                },
+                            {
+                  "id": "S000663",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/S000663.json",
+                  "name": "Olympia J. Snowe",
+                  "party": "R",
+                  "state": "ME",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 468,
+                  "party_votes_pct": 76.60,
+                  "rank": 4,
+                  "notes": ""
+                },
+                            {
+                  "id": "B001210",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/B001210.json",
+                  "name": "Robert C. Byrd",
+                  "party": "D",
+                  "state": "WV",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 476,
+                  "party_votes_pct": 77.91,
+                  "rank": 5,
+                  "notes": ""
+                },
+                            {
+                  "id": "D000018",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/D000018.json",
+                  "name": "Alfonse M. D'Amato",
+                  "party": "R",
+                  "state": "NY",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 465,
+                  "party_votes_pct": 78.02,
+                  "rank": 6,
+                  "notes": ""
+                },
+                            {
+                  "id": "C001035",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/C001035.json",
+                  "name": "Susan Collins",
+                  "party": "R",
+                  "state": "ME",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 481,
+                  "party_votes_pct": 78.59,
+                  "rank": 7,
+                  "notes": ""
+                },
+                            {
+                  "id": "H000725",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/H000725.json",
+                  "name": "Ernest F. Hollings",
+                  "party": "D",
+                  "state": "SC",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 454,
+                  "party_votes_pct": 79.79,
+                  "rank": 8,
+                  "notes": ""
+                },
+                            {
+                  "id": "B000780",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/B000780.json",
+                  "name": "John B. Breaux",
+                  "party": "D",
+                  "state": "LA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 486,
+                  "party_votes_pct": 79.80,
+                  "rank": 9,
+                  "notes": ""
+                },
+                            {
+                  "id": "F000061",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/F000061.json",
+                  "name": "Russ Feingold",
+                  "party": "D",
+                  "state": "WI",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 490,
+                  "party_votes_pct": 80.07,
+                  "rank": 10,
+                  "notes": ""
+                },
+                            {
+                  "id": "K000305",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/K000305.json",
+                  "name": "Herb Kohl",
+                  "party": "D",
+                  "state": "WI",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 500,
+                  "party_votes_pct": 81.83,
+                  "rank": 11,
+                  "notes": ""
+                },
+                            {
+                  "id": "R000295",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/R000295.json",
+                  "name": "Charles S. Robb",
+                  "party": "D",
+                  "state": "VA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 507,
+                  "party_votes_pct": 82.84,
+                  "rank": 12,
+                  "notes": ""
+                },
+                            {
+                  "id": "M000303",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/M000303.json",
+                  "name": "John McCain",
+                  "party": "R",
+                  "state": "AZ",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 495,
+                  "party_votes_pct": 83.61,
+                  "rank": 13,
+                  "notes": ""
+                },
+                            {
+                  "id": "G000352",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/G000352.json",
+                  "name": "Bob Graham",
+                  "party": "D",
+                  "state": "FL",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 515,
+                  "party_votes_pct": 84.29,
+                  "rank": 14,
+                  "notes": ""
+                },
+                            {
+                  "id": "S000888",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/S000888.json",
+                  "name": "Ted F. Stevens",
+                  "party": "R",
+                  "state": "AK",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 513,
+                  "party_votes_pct": 84.51,
+                  "rank": 15,
+                  "notes": ""
+                },
+                            {
+                  "id": "F000268",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/F000268.json",
+                  "name": "Wendell H. Ford",
+                  "party": "D",
+                  "state": "KY",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 515,
+                  "party_votes_pct": 84.84,
+                  "rank": 16,
+                  "notes": ""
+                },
+                            {
+                  "id": "B000993",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/B000993.json",
+                  "name": "Richard H. Bryan",
+                  "party": "D",
+                  "state": "NV",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 517,
+                  "party_votes_pct": 84.89,
+                  "rank": 17,
+                  "notes": ""
+                },
+                            {
+                  "id": "W000288",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/W000288.json",
+                  "name": "Paul D. Wellstone",
+                  "party": "D",
+                  "state": "MN",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 503,
+                  "party_votes_pct": 84.97,
+                  "rank": 18,
+                  "notes": ""
+                },
+                            {
+                  "id": "L000304",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/L000304.json",
+                  "name": "Joseph I. Lieberman",
+                  "party": "D",
+                  "state": "CT",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 517,
+                  "party_votes_pct": 85.03,
+                  "rank": 19,
+                  "notes": ""
+                },
+                            {
+                  "id": "R000146",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/R000146.json",
+                  "name": "Harry Reid",
+                  "party": "D",
+                  "state": "NV",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 516,
+                  "party_votes_pct": 85.15,
+                  "rank": 20,
+                  "notes": ""
+                },
+                            {
+                  "id": "M001054",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/M001054.json",
+                  "name": "Daniel Patrick Moynihan",
+                  "party": "D",
+                  "state": "NY",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 501,
+                  "party_votes_pct": 85.35,
+                  "rank": 21,
+                  "notes": ""
+                },
+                            {
+                  "id": "R000460",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/R000460.json",
+                  "name": "William V. Roth Jr.",
+                  "party": "R",
+                  "state": "DE",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 507,
+                  "party_votes_pct": 85.35,
+                  "rank": 22,
+                  "notes": ""
+                },
+                            {
+                  "id": "B000243",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/B000243.json",
+                  "name": "Max Baucus",
+                  "party": "D",
+                  "state": "MT",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 508,
+                  "party_votes_pct": 85.52,
+                  "rank": 23,
+                  "notes": ""
+                },
+                            {
+                  "id": "F000437",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/F000437.json",
+                  "name": "Lauch Faircloth",
+                  "party": "R",
+                  "state": "NC",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 503,
+                  "party_votes_pct": 85.54,
+                  "rank": 24,
+                  "notes": ""
+                },
+                            {
+                  "id": "C000077",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/C000077.json",
+                  "name": "Ben Nighthorse Campbell",
+                  "party": "R",
+                  "state": "CO",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 524,
+                  "party_votes_pct": 86.04,
+                  "rank": 25,
+                  "notes": ""
+                },
+                            {
+                  "id": "G000333",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/G000333.json",
+                  "name": "Slade Gorton",
+                  "party": "R",
+                  "state": "WA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 525,
+                  "party_votes_pct": 86.07,
+                  "rank": 26,
+                  "notes": ""
+                },
+                            {
+                  "id": "T000457",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/T000457.json",
+                  "name": "Fred Thompson",
+                  "party": "R",
+                  "state": "TN",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 529,
+                  "party_votes_pct": 86.44,
+                  "rank": 27,
+                  "notes": ""
+                },
+                            {
+                  "id": "W000779",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/W000779.json",
+                  "name": "Ron Wyden",
+                  "party": "D",
+                  "state": "OR",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 515,
+                  "party_votes_pct": 86.55,
+                  "rank": 28,
+                  "notes": ""
+                },
+                            {
+                  "id": "L000504",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/L000504.json",
+                  "name": "Richard G. Lugar",
+                  "party": "R",
+                  "state": "IN",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 531,
+                  "party_votes_pct": 86.76,
+                  "rank": 29,
+                  "notes": ""
+                },
+                            {
+                  "id": "C000542",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/C000542.json",
+                  "name": "Daniel Coats",
+                  "party": "R",
+                  "state": "IN",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 512,
+                  "party_votes_pct": 86.78,
+                  "rank": 30,
+                  "notes": ""
+                },
+                            {
+                  "id": "C000705",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/C000705.json",
+                  "name": "Kent Conrad",
+                  "party": "D",
+                  "state": "ND",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 527,
+                  "party_votes_pct": 86.82,
+                  "rank": 31,
+                  "notes": ""
+                },
+                            {
+                  "id": "K000146",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/K000146.json",
+                  "name": "J. Robert Kerrey",
+                  "party": "D",
+                  "state": "NE",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 526,
+                  "party_votes_pct": 86.94,
+                  "rank": 32,
+                  "notes": ""
+                },
+                            {
+                  "id": "B000444",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/B000444.json",
+                  "name": "Joseph R. Biden Jr.",
+                  "party": "D",
+                  "state": "DE",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 512,
+                  "party_votes_pct": 87.22,
+                  "rank": 33,
+                  "notes": ""
+                },
+                            {
+                  "id": "S000606",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/S000606.json",
+                  "name": "Bob Smith",
+                  "party": "R",
+                  "state": "NH",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 533,
+                  "party_votes_pct": 87.52,
+                  "rank": 34,
+                  "notes": ""
+                },
+                            {
+                  "id": "C001034",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/C001034.json",
+                  "name": "Max Cleland",
+                  "party": "D",
+                  "state": "GA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 535,
+                  "party_votes_pct": 87.56,
+                  "rank": 35,
+                  "notes": ""
+                },
+                            {
+                  "id": "B001057",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/B001057.json",
+                  "name": "Dale Bumpers",
+                  "party": "D",
+                  "state": "AR",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 531,
+                  "party_votes_pct": 87.62,
+                  "rank": 36,
+                  "notes": ""
+                },
+                            {
+                  "id": "K000352",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/K000352.json",
+                  "name": "Jon Kyl",
+                  "party": "R",
+                  "state": "AZ",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 520,
+                  "party_votes_pct": 87.69,
+                  "rank": 37,
+                  "notes": ""
+                },
+                            {
+                  "id": "D000294",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/D000294.json",
+                  "name": "Michael DeWine",
+                  "party": "R",
+                  "state": "OH",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 537,
+                  "party_votes_pct": 87.75,
+                  "rank": 38,
+                  "notes": ""
+                },
+                            {
+                  "id": "A000356",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/A000356.json",
+                  "name": "John Ashcroft",
+                  "party": "R",
+                  "state": "MO",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 535,
+                  "party_votes_pct": 87.85,
+                  "rank": 39,
+                  "notes": ""
+                },
+                            {
+                  "id": "D000432",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/D000432.json",
+                  "name": "Byron L. Dorgan",
+                  "party": "D",
+                  "state": "ND",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 532,
+                  "party_votes_pct": 87.93,
+                  "rank": 40,
+                  "notes": ""
+                },
+                            {
+                  "id": "T000317",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/T000317.json",
+                  "name": "Robert G. Torricelli",
+                  "party": "D",
+                  "state": "NJ",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 533,
+                  "party_votes_pct": 87.95,
+                  "rank": 41,
+                  "notes": ""
+                },
+                            {
+                  "id": "C000567",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/C000567.json",
+                  "name": "Thad Cochran",
+                  "party": "R",
+                  "state": "MS",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 537,
+                  "party_votes_pct": 88.03,
+                  "rank": 42,
+                  "notes": ""
+                },
+                            {
+                  "id": "M001025",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/M001025.json",
+                  "name": "Carol Moseley-Braun",
+                  "party": "D",
+                  "state": "IL",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 515,
+                  "party_votes_pct": 88.03,
+                  "rank": 43,
+                  "notes": ""
+                },
+                            {
+                  "id": "L000174",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/L000174.json",
+                  "name": "Patrick J. Leahy",
+                  "party": "D",
+                  "state": "VT",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 531,
+                  "party_votes_pct": 88.21,
+                  "rank": 44,
+                  "notes": ""
+                },
+                            {
+                  "id": "L000550",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/L000550.json",
+                  "name": "Mary L. Landrieu",
+                  "party": "D",
+                  "state": "LA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 533,
+                  "party_votes_pct": 88.25,
+                  "rank": 45,
+                  "notes": ""
+                },
+                            {
+                  "id": "H000463",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/H000463.json",
+                  "name": "Jesse Helms",
+                  "party": "R",
+                  "state": "NC",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 474,
+                  "party_votes_pct": 88.43,
+                  "rank": 46,
+                  "notes": ""
+                },
+                            {
+                  "id": "W000154",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/W000154.json",
+                  "name": "John W. Warner",
+                  "party": "R",
+                  "state": "VA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 530,
+                  "party_votes_pct": 88.48,
+                  "rank": 47,
+                  "notes": ""
+                },
+                            {
+                  "id": "B000468",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/B000468.json",
+                  "name": "Jeff Bingaman",
+                  "party": "D",
+                  "state": "NM",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 517,
+                  "party_votes_pct": 88.53,
+                  "rank": 48,
+                  "notes": ""
+                },
+                            {
+                  "id": "M000019",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/M000019.json",
+                  "name": "Connie Mack",
+                  "party": "R",
+                  "state": "FL",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 536,
+                  "party_votes_pct": 88.60,
+                  "rank": 49,
+                  "notes": ""
+                },
+                            {
+                  "id": "H000206",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/H000206.json",
+                  "name": "Tom Harkin",
+                  "party": "D",
+                  "state": "IA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 518,
+                  "party_votes_pct": 88.70,
+                  "rank": 50,
+                  "notes": ""
+                },
+                            {
+                  "id": "I000024",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/I000024.json",
+                  "name": "James M. Inhofe",
+                  "party": "R",
+                  "state": "OK",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 525,
+                  "party_votes_pct": 88.83,
+                  "rank": 51,
+                  "notes": ""
+                },
+                            {
+                  "id": "G000386",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/G000386.json",
+                  "name": "Charles E. Grassley",
+                  "party": "R",
+                  "state": "IA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 546,
+                  "party_votes_pct": 89.22,
+                  "rank": 52,
+                  "notes": ""
+                },
+                            {
+                  "id": "D000407",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/D000407.json",
+                  "name": "Pete V. Domenici",
+                  "party": "R",
+                  "state": "NM",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 531,
+                  "party_votes_pct": 89.24,
+                  "rank": 53,
+                  "notes": ""
+                },
+                            {
+                  "id": "G000365",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/G000365.json",
+                  "name": "Phil Gramm",
+                  "party": "R",
+                  "state": "TX",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 543,
+                  "party_votes_pct": 89.31,
+                  "rank": 54,
+                  "notes": ""
+                },
+                            {
+                  "id": "G000445",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/G000445.json",
+                  "name": "Judd Gregg",
+                  "party": "R",
+                  "state": "NH",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 542,
+                  "party_votes_pct": 89.44,
+                  "rank": 55,
+                  "notes": ""
+                },
+                            {
+                  "id": "F000062",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/F000062.json",
+                  "name": "Dianne Feinstein",
+                  "party": "D",
+                  "state": "CA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 543,
+                  "party_votes_pct": 89.60,
+                  "rank": 56,
+                  "notes": ""
+                },
+                            {
+                  "id": "S001142",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/S001142.json",
+                  "name": "Gordon Harold Smith",
+                  "party": "R",
+                  "state": "OR",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 543,
+                  "party_votes_pct": 89.60,
+                  "rank": 57,
+                  "notes": ""
+                },
+                            {
+                  "id": "B000382",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/B000382.json",
+                  "name": "Robert F. Bennett",
+                  "party": "R",
+                  "state": "UT",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 525,
+                  "party_votes_pct": 89.74,
+                  "rank": 58,
+                  "notes": ""
+                },
+                            {
+                  "id": "J000177",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/J000177.json",
+                  "name": "Tim Johnson",
+                  "party": "D",
+                  "state": "SD",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 544,
+                  "party_votes_pct": 89.77,
+                  "rank": 59,
+                  "notes": ""
+                },
+                            {
+                  "id": "H001015",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/H001015.json",
+                  "name": "Tim Hutchinson",
+                  "party": "R",
+                  "state": "AR",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 532,
+                  "party_votes_pct": 89.86,
+                  "rank": 60,
+                  "notes": ""
+                },
+                            {
+                  "id": "S000320",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/S000320.json",
+                  "name": "Richard C. Shelby",
+                  "party": "R",
+                  "state": "AL",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 546,
+                  "party_votes_pct": 89.95,
+                  "rank": 61,
+                  "notes": ""
+                },
+                            {
+                  "id": "D000388",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/D000388.json",
+                  "name": "Christopher J. Dodd",
+                  "party": "D",
+                  "state": "CT",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 549,
+                  "party_votes_pct": 90.15,
+                  "rank": 62,
+                  "notes": ""
+                },
+                            {
+                  "id": "H001028",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/H001028.json",
+                  "name": "Chuck T. Hagel",
+                  "party": "R",
+                  "state": "NE",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 549,
+                  "party_votes_pct": 90.15,
+                  "rank": 63,
+                  "notes": ""
+                },
+                            {
+                  "id": "N000102",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/N000102.json",
+                  "name": "Don Nickles",
+                  "party": "R",
+                  "state": "OK",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 551,
+                  "party_votes_pct": 90.33,
+                  "rank": 64,
+                  "notes": ""
+                },
+                            {
+                  "id": "A000109",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/A000109.json",
+                  "name": "Wayne A. Allard",
+                  "party": "R",
+                  "state": "CO",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 552,
+                  "party_votes_pct": 90.34,
+                  "rank": 65,
+                  "notes": ""
+                },
+                            {
+                  "id": "B000711",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/B000711.json",
+                  "name": "Barbara Boxer",
+                  "party": "D",
+                  "state": "CA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 545,
+                  "party_votes_pct": 90.53,
+                  "rank": 66,
+                  "notes": ""
+                },
+                            {
+                  "id": "S000059",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/S000059.json",
+                  "name": "Richard J. Santorum",
+                  "party": "R",
+                  "state": "PA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 549,
+                  "party_votes_pct": 90.59,
+                  "rank": 67,
+                  "notes": ""
+                },
+                            {
+                  "id": "R000361",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/R000361.json",
+                  "name": "John D. Rockefeller IV",
+                  "party": "D",
+                  "state": "WV",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 521,
+                  "party_votes_pct": 90.61,
+                  "rank": 68,
+                  "notes": ""
+                },
+                            {
+                  "id": "S001141",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/S001141.json",
+                  "name": "Jeff Sessions",
+                  "party": "R",
+                  "state": "AL",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 546,
+                  "party_votes_pct": 90.70,
+                  "rank": 69,
+                  "notes": ""
+                },
+                            {
+                  "id": "B000611",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/B000611.json",
+                  "name": "Christopher S. Bond",
+                  "party": "R",
+                  "state": "MO",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 547,
+                  "party_votes_pct": 90.71,
+                  "rank": 70,
+                  "notes": ""
+                },
+                            {
+                  "id": "D000563",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/D000563.json",
+                  "name": "Richard J. Durbin",
+                  "party": "D",
+                  "state": "IL",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 552,
+                  "party_votes_pct": 91.09,
+                  "rank": 71,
+                  "notes": ""
+                },
+                            {
+                  "id": "T000254",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/T000254.json",
+                  "name": "Strom Thurmond",
+                  "party": "R",
+                  "state": "SC",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 554,
+                  "party_votes_pct": 91.12,
+                  "rank": 72,
+                  "notes": ""
+                },
+                            {
+                  "id": "G000236",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/G000236.json",
+                  "name": "John H. Glenn Jr.",
+                  "party": "D",
+                  "state": "OH",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 484,
+                  "party_votes_pct": 91.15,
+                  "rank": 73,
+                  "notes": ""
+                },
+                            {
+                  "id": "H000338",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/H000338.json",
+                  "name": "Orrin G. Hatch",
+                  "party": "R",
+                  "state": "UT",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 553,
+                  "party_votes_pct": 91.25,
+                  "rank": 74,
+                  "notes": ""
+                },
+                            {
+                  "id": "G000367",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/G000367.json",
+                  "name": "Rod Grams",
+                  "party": "R",
+                  "state": "MN",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 553,
+                  "party_votes_pct": 91.41,
+                  "rank": 75,
+                  "notes": ""
+                },
+                            {
+                  "id": "H001016",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/H001016.json",
+                  "name": "Kay Bailey Hutchison",
+                  "party": "R",
+                  "state": "TX",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 545,
+                  "party_votes_pct": 91.44,
+                  "rank": 76,
+                  "notes": ""
+                },
+                            {
+                  "id": "I000025",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/I000025.json",
+                  "name": "Daniel K. Inouye",
+                  "party": "D",
+                  "state": "HI",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 502,
+                  "party_votes_pct": 91.61,
+                  "rank": 77,
+                  "notes": ""
+                },
+                            {
+                  "id": "M001111",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/M001111.json",
+                  "name": "Patty Murray",
+                  "party": "D",
+                  "state": "WA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 559,
+                  "party_votes_pct": 91.64,
+                  "rank": 78,
+                  "notes": ""
+                },
+                            {
+                  "id": "B000953",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/B000953.json",
+                  "name": "Sam Brownback",
+                  "party": "R",
+                  "state": "KS",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 560,
+                  "party_votes_pct": 91.80,
+                  "rank": 79,
+                  "notes": ""
+                },
+                            {
+                  "id": "R000307",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/R000307.json",
+                  "name": "Pat Roberts",
+                  "party": "R",
+                  "state": "KS",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 549,
+                  "party_votes_pct": 91.81,
+                  "rank": 80,
+                  "notes": ""
+                },
+                            {
+                  "id": "D000064",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/D000064.json",
+                  "name": "Thomas A. Daschle",
+                  "party": "D",
+                  "state": "SD",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 553,
+                  "party_votes_pct": 91.86,
+                  "rank": 81,
+                  "notes": ""
+                },
+                            {
+                  "id": "K000105",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/K000105.json",
+                  "name": "Edward M. Kennedy",
+                  "party": "D",
+                  "state": "MA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 544,
+                  "party_votes_pct": 91.89,
+                  "rank": 82,
+                  "notes": ""
+                },
+                            {
+                  "id": "A000355",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/A000355.json",
+                  "name": "Spencer Abraham",
+                  "party": "R",
+                  "state": "MI",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 563,
+                  "party_votes_pct": 91.99,
+                  "rank": 83,
+                  "notes": ""
+                },
+                            {
+                  "id": "L000261",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/L000261.json",
+                  "name": "Carl Levin",
+                  "party": "D",
+                  "state": "MI",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 556,
+                  "party_votes_pct": 92.05,
+                  "rank": 84,
+                  "notes": ""
+                },
+                            {
+                  "id": "L000123",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/L000123.json",
+                  "name": "Frank R. Lautenberg",
+                  "party": "D",
+                  "state": "NJ",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 561,
+                  "party_votes_pct": 92.27,
+                  "rank": 85,
+                  "notes": ""
+                },
+                            {
+                  "id": "F000439",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/F000439.json",
+                  "name": "William H. Frist",
+                  "party": "R",
+                  "state": "TN",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 564,
+                  "party_votes_pct": 92.31,
+                  "rank": 86,
+                  "notes": ""
+                },
+                            {
+                  "id": "C000813",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/C000813.json",
+                  "name": "Paul Coverdell",
+                  "party": "R",
+                  "state": "GA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 558,
+                  "party_votes_pct": 92.38,
+                  "rank": 87,
+                  "notes": ""
+                },
+                            {
+                  "id": "E000285",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/E000285.json",
+                  "name": "Michael B. Enzi",
+                  "party": "R",
+                  "state": "WY",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 560,
+                  "party_votes_pct": 92.56,
+                  "rank": 88,
+                  "notes": ""
+                },
+                            {
+                  "id": "T000162",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/T000162.json",
+                  "name": "Craig Thomas",
+                  "party": "R",
+                  "state": "WY",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 566,
+                  "party_votes_pct": 92.79,
+                  "rank": 89,
+                  "notes": ""
+                },
+                            {
+                  "id": "B001126",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/B001126.json",
+                  "name": "Conrad Burns",
+                  "party": "R",
+                  "state": "MT",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 554,
+                  "party_votes_pct": 92.80,
+                  "rank": 90,
+                  "notes": ""
+                },
+                            {
+                  "id": "L000447",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/L000447.json",
+                  "name": "Trent Lott",
+                  "party": "R",
+                  "state": "MS",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 568,
+                  "party_votes_pct": 92.81,
+                  "rank": 91,
+                  "notes": ""
+                },
+                            {
+                  "id": "K000148",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/K000148.json",
+                  "name": "John Kerry",
+                  "party": "D",
+                  "state": "MA",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 564,
+                  "party_votes_pct": 93.07,
+                  "rank": 92,
+                  "notes": ""
+                },
+                            {
+                  "id": "R000122",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/R000122.json",
+                  "name": "Jack Reed",
+                  "party": "D",
+                  "state": "RI",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 568,
+                  "party_votes_pct": 93.11,
+                  "rank": 93,
+                  "notes": ""
+                },
+                            {
+                  "id": "M000702",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/M000702.json",
+                  "name": "Barbara A. Mikulski",
+                  "party": "D",
+                  "state": "MD",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 537,
+                  "party_votes_pct": 93.23,
+                  "rank": 94,
+                  "notes": ""
+                },
+                            {
+                  "id": "M000355",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/M000355.json",
+                  "name": "Mitch McConnell",
+                  "party": "R",
+                  "state": "KY",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 570,
+                  "party_votes_pct": 93.44,
+                  "rank": 95,
+                  "notes": ""
+                },
+                            {
+                  "id": "K000088",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/K000088.json",
+                  "name": "Dirk Kempthorne",
+                  "party": "R",
+                  "state": "ID",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 566,
+                  "party_votes_pct": 93.71,
+                  "rank": 96,
+                  "notes": ""
+                },
+                            {
+                  "id": "M001085",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/M001085.json",
+                  "name": "Frank H. Murkowski",
+                  "party": "R",
+                  "state": "AK",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 553,
+                  "party_votes_pct": 93.89,
+                  "rank": 97,
+                  "notes": ""
+                },
+                            {
+                  "id": "S000064",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/S000064.json",
+                  "name": "Paul S. Sarbanes",
+                  "party": "D",
+                  "state": "MD",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 572,
+                  "party_votes_pct": 93.92,
+                  "rank": 98,
+                  "notes": ""
+                },
+                            {
+                  "id": "C000858",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/C000858.json",
+                  "name": "Larry E. Craig",
+                  "party": "R",
+                  "state": "ID",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 576,
+                  "party_votes_pct": 94.12,
+                  "rank": 99,
+                  "notes": ""
+                },
+                            {
+                  "id": "A000069",
+                  "api_uri":"https://api.propublica.org/congress/v1/members/A000069.json",
+                  "name": "Daniel K. Akaka",
+                  "party": "D",
+                  "state": "HI",
+                  
+                  "total_votes": 612,
+                  "votes_with_party": 551,
+                  "party_votes_pct": 94.19,
+                  "rank": 100,
+                  "notes": ""
+                }
+              ]
+       }
+    ]
+ }
+ 

@@ -1,5 +1,5 @@
 # Congress [![Build Status](https://travis-ci.org/thedataincubator/congress-api.svg?branch=master)](https://travis-ci.org/thedataincubator/congress-api)
- This is the API address for propublica: [propublica link] (https://projects.propublica.org/api-docs/congress-api/)
+ This is the API address for propublica(https://projects.propublica.org/api-docs/congress-api/):
 This repo is a python package to access the propublica API.
 
 To get started clone the repo locally and

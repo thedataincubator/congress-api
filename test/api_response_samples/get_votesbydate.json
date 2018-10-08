@@ -1,0 +1,2021 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2018 Pro Publica Inc. All Rights Reserved.",
+  "results": {
+    "chamber": "House",
+    "year": 2016,
+    "month": 4,
+    "num_results": 41,
+    "votes": [
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 179,
+        "source": "http://clerk.house.gov/evs/2016/roll179.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll179.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/179.json",
+        "bill": {
+          "bill_id": "hr4901-114",
+          "number": "H.R.4901",
+          "sponsor_id": "C001076",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr4901.json",
+          "title": "To reauthorize the Scholarships for Opportunity and Results Act, and for other purposes.",
+          "latest_action": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 564."
+        },
+        "question": "On Passage",
+        "description": "Scholarships for Opportunity and Results Reauthorization Act",
+        "vote_type": "RECORDED VOTE",
+        "date": "2016-04-29",
+        "time": "10:51:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 2,
+          "no": 173,
+          "present": 0,
+          "not_voting": 13,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 222,
+          "no": 8,
+          "present": 0,
+          "not_voting": 16,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 224,
+          "no": 181,
+          "present": 0,
+          "not_voting": 28
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 178,
+        "source": "http://clerk.house.gov/evs/2016/roll178.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll178.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/178.json",
+        "bill": {
+          "bill_id": "hr4901-114",
+          "number": "H.R.4901",
+          "sponsor_id": "C001076",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr4901.json",
+          "title": "To reauthorize the Scholarships for Opportunity and Results Act, and for other purposes.",
+          "latest_action": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 564."
+        },
+        "question": "On Motion to Recommit with Instructions",
+        "description": "Scholarships for Opportunity and Results Reauthorization Act",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-29",
+        "time": "10:44:00",
+        "result": "Failed",
+        "democratic": {
+          "yes": 167,
+          "no": 1,
+          "present": 0,
+          "not_voting": 20,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 0,
+          "no": 227,
+          "present": 0,
+          "not_voting": 19,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 167,
+          "no": 228,
+          "present": 0,
+          "not_voting": 38
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 177,
+        "source": "http://clerk.house.gov/evs/2016/roll177.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll177.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/177.json",
+        "bill": {
+          "bill_id": "hr2901-114",
+          "number": "H.R.2901",
+          "sponsor_id": "R000593",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr2901.json",
+          "title": "To amend the Flood Disaster Protection Act of 1973 to require that certain buildings and personal property be covered by flood insurance, and for other purposes.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+        },
+        "question": "On Motion to Suspend the Rules and Pass, as Amended",
+        "description": "Flood Insurance Market Parity and Modernization Act",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2016-04-28",
+        "time": "15:31:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 185,
+          "no": 0,
+          "present": 0,
+          "not_voting": 3,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 234,
+          "no": 0,
+          "present": 0,
+          "not_voting": 12,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 419,
+          "no": 0,
+          "present": 0,
+          "not_voting": 14
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 176,
+        "source": "http://clerk.house.gov/evs/2016/roll176.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll176.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/176.json",
+        "bill": {
+          "bill_id": "hjres88-114",
+          "number": "H.J.RES.88",
+          "sponsor_id": "R000582",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hjres88.json",
+          "title": "Disapproving the rule submitted by the Department of Labor relating to the definition of the term 'Fiduciary'.",
+          "latest_action": "Motion to refer the bill and accompanying veto message to the Committee on Education and the Workforce. The Chair directed the Clerk to notify the Senate of the action of the House."
+        },
+        "question": "On Passage",
+        "description": "Disapproving the rule submitted by the Department of Labor relating to the definition of the term “Fiduciary”",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-28",
+        "time": "15:23:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 0,
+          "no": 183,
+          "present": 0,
+          "not_voting": 5,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 234,
+          "no": 0,
+          "present": 0,
+          "not_voting": 12,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 234,
+          "no": 183,
+          "present": 0,
+          "not_voting": 16
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 175,
+        "source": "http://clerk.house.gov/evs/2016/roll175.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll175.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/175.json",
+        "bill": {
+          "bill_id": "hr5019-114",
+          "number": "H.R.5019",
+          "sponsor_id": "H001072",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr5019.json",
+          "title": "To direct the Securities and Exchange Commission to provide a safe harbor related to certain investment fund research reports, and for other purposes.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+        },
+        "question": "On Motion to Suspend the Rules and Pass",
+        "description": "Fair Access to Investment Research Act of 2016",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2016-04-28",
+        "time": "13:37:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 178,
+          "no": 6,
+          "present": 0,
+          "not_voting": 4,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 233,
+          "no": 0,
+          "present": 0,
+          "not_voting": 13,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 411,
+          "no": 6,
+          "present": 0,
+          "not_voting": 16
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 174,
+        "source": "http://clerk.house.gov/evs/2016/roll174.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll174.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/174.json",
+        "bill": {
+          "bill_id": "hres706-114",
+          "number": "H.RES.706",
+          "sponsor_id": "F000450",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hres706.json",
+          "title": "Providing for consideration of the bill (H.R. 4901) to reauthorize the Scholarships for Opportunity and Results Act, and for other purposes; providing for consideration of the joint resolution (H.J. Res. 88) disapproving the rule submitted by the Department of Labor relating to the definition of the term 'Fiduciary'; and providing for proceedings during the period from May 2, 2016, through May 9, 2016.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "question": "On Agreeing to the Resolution",
+        "description": "Providing for consideration of H.R. 4901, the Scholarships for Opportunity and Results Reauthorization Act; and providing for consideration of H. J. Res. 88, disapproving the rule submitted by the Department of Labor relating to the definition of the term “Fiduciary”",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-28",
+        "time": "13:29:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 0,
+          "no": 183,
+          "present": 0,
+          "not_voting": 5,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 234,
+          "no": 0,
+          "present": 0,
+          "not_voting": 12,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 234,
+          "no": 183,
+          "present": 0,
+          "not_voting": 16
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 173,
+        "source": "http://clerk.house.gov/evs/2016/roll173.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll173.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/173.json",
+        "bill": {
+          "bill_id": "hres706-114",
+          "number": "H.RES.706",
+          "sponsor_id": "F000450",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hres706.json",
+          "title": "Providing for consideration of the bill (H.R. 4901) to reauthorize the Scholarships for Opportunity and Results Act, and for other purposes; providing for consideration of the joint resolution (H.J. Res. 88) disapproving the rule submitted by the Department of Labor relating to the definition of the term 'Fiduciary'; and providing for proceedings during the period from May 2, 2016, through May 9, 2016.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "question": "On Ordering the Previous Question",
+        "description": "Providing for consideration of H.R. 4901, the Scholarships for Opportunity and Results Reauthorization Act; and providing for consideration of H. J. Res. 88, disapproving the rule submitted by the Department of Labor relating to the definition of the term “Fiduciary”",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-28",
+        "time": "13:23:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 0,
+          "no": 181,
+          "present": 0,
+          "not_voting": 7,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 231,
+          "no": 1,
+          "present": 0,
+          "not_voting": 14,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 231,
+          "no": 182,
+          "present": 0,
+          "not_voting": 20
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 172,
+        "source": "http://clerk.house.gov/evs/2016/roll172.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll172.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/172.json",
+        "bill": {
+          "bill_id": "s1890-114",
+          "number": "S.1890",
+          "sponsor_id": "H000338",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/s1890.json",
+          "title": "A bill to amend chapter 90 of title 18, United States Code, to provide Federal jurisdiction for the theft of trade secrets, and for other purposes.",
+          "latest_action": "Became Public Law No: 114-153."
+        },
+        "question": "On Motion to Suspend the Rules and Pass",
+        "description": "Defend Trade Secrets Act of 2016",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2016-04-27",
+        "time": "17:33:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 176,
+          "no": 0,
+          "present": 0,
+          "not_voting": 12,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 234,
+          "no": 2,
+          "present": 0,
+          "not_voting": 10,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 410,
+          "no": 2,
+          "present": 0,
+          "not_voting": 21
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 171,
+        "source": "http://clerk.house.gov/evs/2016/roll171.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll171.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/171.json",
+        "bill": {
+          "bill_id": "hr4498-114",
+          "number": "H.R.4498",
+          "sponsor_id": "C000266",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr4498.json",
+          "title": "To clarify the definition of general solicitation under Federal securities law.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+        },
+        "question": "On Passage",
+        "description": "Helping Angels Lead Our Startups (HALOS) Act",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-27",
+        "time": "17:26:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 88,
+          "no": 89,
+          "present": 0,
+          "not_voting": 11,
+          "majority_position": "None"
+        },
+        "republican": {
+          "yes": 237,
+          "no": 0,
+          "present": 0,
+          "not_voting": 9,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 325,
+          "no": 89,
+          "present": 0,
+          "not_voting": 19
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 170,
+        "source": "http://clerk.house.gov/evs/2016/roll170.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll170.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/170.json",
+        "bill": {
+          "bill_id": "hr4498-114",
+          "number": "H.R.4498",
+          "sponsor_id": "C000266",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr4498.json",
+          "title": "To clarify the definition of general solicitation under Federal securities law.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+        },
+        "question": "On Agreeing to the Amendment",
+        "description": "Waters of California Amendment No. 1",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-27",
+        "time": "17:19:00",
+        "result": "Failed",
+        "democratic": {
+          "yes": 139,
+          "no": 35,
+          "present": 0,
+          "not_voting": 14,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 0,
+          "no": 237,
+          "present": 0,
+          "not_voting": 9,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 139,
+          "no": 272,
+          "present": 0,
+          "not_voting": 22
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 169,
+        "source": "http://clerk.house.gov/evs/2016/roll169.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll169.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/169.json",
+        "bill": {
+          "bill_id": "hres701-114",
+          "number": "H.RES.701",
+          "sponsor_id": "S000250",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hres701.json",
+          "title": "Providing for consideration of the bill (H.R. 4498) to clarify the definition of general solicitation under Federal securities law.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "question": "On Agreeing to the Resolution",
+        "description": "Providing for consideration for H.R. 701, the Helping Angels Lead Our Startups Act",
+        "vote_type": "RECORDED VOTE",
+        "date": "2016-04-27",
+        "time": "15:51:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 4,
+          "no": 177,
+          "present": 0,
+          "not_voting": 7,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 236,
+          "no": 0,
+          "present": 0,
+          "not_voting": 10,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 240,
+          "no": 177,
+          "present": 0,
+          "not_voting": 16
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 168,
+        "source": "http://clerk.house.gov/evs/2016/roll168.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll168.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/168.json",
+        "bill": {
+          "bill_id": "hres701-114",
+          "number": "H.RES.701",
+          "sponsor_id": "S000250",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hres701.json",
+          "title": "Providing for consideration of the bill (H.R. 4498) to clarify the definition of general solicitation under Federal securities law.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "question": "On Ordering the Previous Question",
+        "description": "Providing for consideration for H.R. 701, the Helping Angels Lead Our Startups Act",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-27",
+        "time": "15:44:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 1,
+          "no": 181,
+          "present": 0,
+          "not_voting": 6,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 237,
+          "no": 0,
+          "present": 0,
+          "not_voting": 9,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 238,
+          "no": 181,
+          "present": 0,
+          "not_voting": 14
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 167,
+        "source": "http://clerk.house.gov/evs/2016/roll167.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll167.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/167.json",
+        "bill": {
+          "bill_id": "hr699-114",
+          "number": "H.R.699",
+          "sponsor_id": "Y000063",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr699.json",
+          "title": "To amend title 18, United States Code, to update the privacy protections for electronic communications information that is stored by third-party service providers in order to protect consumer privacy interests while meeting law enforcement needs, and for other purposes.",
+          "latest_action": "Received in the Senate."
+        },
+        "question": "On Motion to Suspend the Rules and Pass, as Amended",
+        "description": "Email Privacy Act",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2016-04-27",
+        "time": "15:37:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 181,
+          "no": 0,
+          "present": 0,
+          "not_voting": 7,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 238,
+          "no": 0,
+          "present": 0,
+          "not_voting": 8,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 419,
+          "no": 0,
+          "present": 0,
+          "not_voting": 14
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 166,
+        "source": "http://clerk.house.gov/evs/2016/roll166.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll166.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/166.json",
+        "bill": {
+          "bill_id": "hr4923-114",
+          "number": "H.R.4923",
+          "sponsor_id": "B000755",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr4923.json",
+          "title": "To establish a process for the submission and consideration of petitions for temporary duty suspensions and reductions, and for other purposes.",
+          "latest_action": "Became Public Law No: 114-159."
+        },
+        "question": "On Motion to Suspend the Rules and Pass, as Amended",
+        "description": "American Manufacturing Competitiveness Act of 2016",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2016-04-27",
+        "time": "15:30:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 180,
+          "no": 0,
+          "present": 0,
+          "not_voting": 8,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 235,
+          "no": 2,
+          "present": 0,
+          "not_voting": 9,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 415,
+          "no": 2,
+          "present": 0,
+          "not_voting": 16
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 165,
+        "source": "http://clerk.house.gov/evs/2016/roll165.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll165.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/165.json",
+        "bill": {
+          "bill_id": "hr4096-114",
+          "number": "H.R.4096",
+          "sponsor_id": "C001037",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr4096.json",
+          "title": "To amend the Volcker Rule to permit certain investment advisers to share a similar name with a private equity fund, subject to certain restrictions, and for other purposes.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+        },
+        "question": "On Motion to Suspend the Rules and Pass",
+        "description": "Investor Clarity and Bank Parity Act",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2016-04-26",
+        "time": "19:02:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 166,
+          "no": 3,
+          "present": 0,
+          "not_voting": 19,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 229,
+          "no": 0,
+          "present": 0,
+          "not_voting": 17,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 395,
+          "no": 3,
+          "present": 0,
+          "not_voting": 35
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 164,
+        "source": "http://clerk.house.gov/evs/2016/roll164.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll164.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/164.json",
+        "bill": {
+          "bill_id": "hr4820-114",
+          "number": "H.R.4820",
+          "sponsor_id": "F000459",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr4820.json",
+          "title": "To require the Secretary of Homeland Security to use the testimonials of former or estranged violent extremists or their associates in order to counter terrorist recruitment, and for other purposes.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+        },
+        "question": "On Motion to Suspend the Rules and Pass, as Amended",
+        "description": "Combating Terrorist Recruitment Act of 2016",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2016-04-26",
+        "time": "18:51:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 91,
+          "no": 79,
+          "present": 0,
+          "not_voting": 18,
+          "majority_position": "None"
+        },
+        "republican": {
+          "yes": 231,
+          "no": 0,
+          "present": 0,
+          "not_voting": 15,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 322,
+          "no": 79,
+          "present": 0,
+          "not_voting": 32
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 163,
+        "source": "http://clerk.house.gov/evs/2016/roll163.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll163.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/163.json",
+        "bill": {
+          "bill_id": "hr3724-114",
+          "number": "H.R.3724",
+          "sponsor_id": "N000184",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr3724.json",
+          "title": "To amend the Internal Revenue Code of 1986 to prohibit the Commissioner of the Internal Revenue Service from rehiring any employee of the Internal Revenue Service who was involuntarily separated from service for misconduct.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Finance."
+        },
+        "question": "On Passage",
+        "description": "Ensuring Integrity in the IRS Workforce Act of 2016",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-21",
+        "time": "11:19:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 104,
+          "no": 78,
+          "present": 0,
+          "not_voting": 6,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 241,
+          "no": 0,
+          "present": 0,
+          "not_voting": 5,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 345,
+          "no": 78,
+          "present": 0,
+          "not_voting": 10
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 162,
+        "source": "http://clerk.house.gov/evs/2016/roll162.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll162.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/162.json",
+        "bill": {
+          "bill_id": "hr4890-114",
+          "number": "H.R.4890",
+          "sponsor_id": "M001181",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr4890.json",
+          "title": "To impose a ban on the payment of bonuses to employees of the Internal Revenue Service until the Secretary of the Treasury develops and implements a comprehensive customer service strategy.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Finance."
+        },
+        "question": "On Passage",
+        "description": "To impose a ban on the payment of bonuses to employees of the Internal Revenue Service until the Secretary of the Treasury develops and implements a comprehensive customer service strategy",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-21",
+        "time": "11:10:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 22,
+          "no": 158,
+          "present": 0,
+          "not_voting": 8,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 238,
+          "no": 0,
+          "present": 0,
+          "not_voting": 8,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 260,
+          "no": 158,
+          "present": 0,
+          "not_voting": 15
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 161,
+        "source": "http://clerk.house.gov/evs/2016/roll161.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll161.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/161.json",
+        "bill": {
+          "bill_id": "hr4885-114",
+          "number": "H.R.4885",
+          "sponsor_id": "S001195",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr4885.json",
+          "title": "To require that user fees collected by the Internal Revenue Service be deposited into the general fund of the Treasury.",
+          "latest_action": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 435."
+        },
+        "question": "On Passage",
+        "description": "IRS Oversight While Eliminating Spending (OWES) Act of 2016",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-20",
+        "time": "16:09:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 1,
+          "no": 179,
+          "present": 0,
+          "not_voting": 8,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 244,
+          "no": 0,
+          "present": 0,
+          "not_voting": 2,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 245,
+          "no": 179,
+          "present": 0,
+          "not_voting": 9
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 160,
+        "source": "http://clerk.house.gov/evs/2016/roll160.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll160.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/160.json",
+        "bill": {
+          "bill_id": "hr1206-114",
+          "number": "H.R.1206",
+          "sponsor_id": "R000603",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr1206.json",
+          "title": "To prohibit the hiring of additional Internal Revenue Service employees until the Secretary of the Treasury certifies that no employee of the Internal Revenue Service has a seriously delinquent tax debt.",
+          "latest_action": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 434."
+        },
+        "question": "On Passage",
+        "description": "No Hires for the Delinquent IRS Act",
+        "vote_type": "RECORDED VOTE",
+        "date": "2016-04-20",
+        "time": "15:58:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 11,
+          "no": 169,
+          "present": 0,
+          "not_voting": 8,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 243,
+          "no": 1,
+          "present": 0,
+          "not_voting": 2,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 254,
+          "no": 170,
+          "present": 0,
+          "not_voting": 9
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 159,
+        "source": "http://clerk.house.gov/evs/2016/roll159.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll159.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/159.json",
+        "bill": {
+          "bill_id": "hr1206-114",
+          "number": "H.R.1206",
+          "sponsor_id": "R000603",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr1206.json",
+          "title": "To prohibit the hiring of additional Internal Revenue Service employees until the Secretary of the Treasury certifies that no employee of the Internal Revenue Service has a seriously delinquent tax debt.",
+          "latest_action": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 434."
+        },
+        "question": "On Motion to Recommit with Instructions",
+        "description": "No Hires for the Delinquent IRS Act",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-20",
+        "time": "15:50:00",
+        "result": "Failed",
+        "democratic": {
+          "yes": 177,
+          "no": 1,
+          "present": 0,
+          "not_voting": 10,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 0,
+          "no": 244,
+          "present": 0,
+          "not_voting": 2,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 177,
+          "no": 245,
+          "present": 0,
+          "not_voting": 11
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 158,
+        "source": "http://clerk.house.gov/evs/2016/roll158.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll158.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/158.json",
+        "bill": {
+          "bill_id": "hres687-114",
+          "number": "H.RES.687",
+          "sponsor_id": "S001187",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hres687.json",
+          "title": "Providing for consideration of the bill (H.R. 1206) to prohibit the hiring of additional Internal Revenue Service employees until the Secretary of the Treasury certifies that no employee of the Internal Revenue Service has a seriously delinquent tax debt, and providing for consideration of the bill (H.R. 4885) to require that user fees collected by the Internal Revenue Service be deposited into the general fund of the Treasury.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "question": "On Agreeing to the Resolution",
+        "description": "Providing for consideration of H.R. 1206, the No Hires for the Delinquent IRS Act; and providing for consideration of H.R. 4885, the IRS Oversight While Eliminating Spending (OWES) Act of 2016",
+        "vote_type": "RECORDED VOTE",
+        "date": "2016-04-19",
+        "time": "14:11:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 0,
+          "no": 173,
+          "present": 0,
+          "not_voting": 15,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 239,
+          "no": 0,
+          "present": 0,
+          "not_voting": 7,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 239,
+          "no": 173,
+          "present": 0,
+          "not_voting": 21
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 157,
+        "source": "http://clerk.house.gov/evs/2016/roll157.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll157.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/157.json",
+        "bill": {
+          "bill_id": "hres687-114",
+          "number": "H.RES.687",
+          "sponsor_id": "S001187",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hres687.json",
+          "title": "Providing for consideration of the bill (H.R. 1206) to prohibit the hiring of additional Internal Revenue Service employees until the Secretary of the Treasury certifies that no employee of the Internal Revenue Service has a seriously delinquent tax debt, and providing for consideration of the bill (H.R. 4885) to require that user fees collected by the Internal Revenue Service be deposited into the general fund of the Treasury.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "question": "On Ordering the Previous Question",
+        "description": "Providing for consideration of H.R. 1206, the No Hires for the Delinquent IRS Act; and providing for consideration of H.R. 4885, the IRS Oversight While Eliminating Spending (OWES) Act of 2016",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-19",
+        "time": "14:05:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 0,
+          "no": 173,
+          "present": 0,
+          "not_voting": 15,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 239,
+          "no": 0,
+          "present": 0,
+          "not_voting": 7,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 239,
+          "no": 173,
+          "present": 0,
+          "not_voting": 21
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 156,
+        "source": "http://clerk.house.gov/evs/2016/roll156.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll156.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/156.json",
+        "bill": {
+          "bill_id": "hres688-114",
+          "number": "H.RES.688",
+          "sponsor_id": "C001093",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hres688.json",
+          "title": "Providing for consideration of the bill (H.R. 4890) to impose a ban on the payment of bonuses to employees of the Internal Revenue Service until the Secretary of the Treasury develops and implements a comprehensive customer service strategy, and providing for consideration of the bill (H.R. 3724) to amend the Internal Revenue Code of 1986 to prohibit the Commissioner of the Internal Revenue Service from rehiring any employee of the Internal Revenue Service who was involuntarily separated from service for misconduct.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "question": "On Agreeing to the Resolution",
+        "description": "Providing for consideration of H.R. 4890, to impose a ban on the payment of bonuses to employees of the IRS until the Secretary of the Treasury develops and implements a comprehensive customer service strategy; and providing for consideration of H.R. 3724, the Ensuring Integrity in the IRS Workforce Act of 2015",
+        "vote_type": "RECORDED VOTE",
+        "date": "2016-04-19",
+        "time": "13:59:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 3,
+          "no": 172,
+          "present": 0,
+          "not_voting": 13,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 239,
+          "no": 0,
+          "present": 0,
+          "not_voting": 7,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 242,
+          "no": 172,
+          "present": 0,
+          "not_voting": 19
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 155,
+        "source": "http://clerk.house.gov/evs/2016/roll155.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll155.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/155.json",
+        "bill": {
+          "bill_id": "hres688-114",
+          "number": "H.RES.688",
+          "sponsor_id": "C001093",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hres688.json",
+          "title": "Providing for consideration of the bill (H.R. 4890) to impose a ban on the payment of bonuses to employees of the Internal Revenue Service until the Secretary of the Treasury develops and implements a comprehensive customer service strategy, and providing for consideration of the bill (H.R. 3724) to amend the Internal Revenue Code of 1986 to prohibit the Commissioner of the Internal Revenue Service from rehiring any employee of the Internal Revenue Service who was involuntarily separated from service for misconduct.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "question": "On Ordering the Previous Question",
+        "description": "Providing for consideration of H.R. 4890, to impose a ban on the payment of bonuses to employees of the IRS until the Secretary of the Treasury develops and implements a comprehensive customer service strategy; and providing for consideration of H.R. 3724, the Ensuring Integrity in the IRS Workforce Act of 2015",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-19",
+        "time": "13:52:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 0,
+          "no": 172,
+          "present": 0,
+          "not_voting": 16,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 240,
+          "no": 0,
+          "present": 0,
+          "not_voting": 6,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 240,
+          "no": 172,
+          "present": 0,
+          "not_voting": 21
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 154,
+        "source": "http://clerk.house.gov/evs/2016/roll154.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll154.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/154.json",
+        "bill": {
+          "bill_id": "s719-114",
+          "number": "S.719",
+          "sponsor_id": "T000464",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/s719.json",
+          "title": "A bill to rename the Armed Forces Reserve Center in Great Falls, Montana, the Captain John E. Moran and Captain William Wylie Galt Armed Forces Reserve Center.",
+          "latest_action": "Became Public Law No: 114-149."
+        },
+        "question": "On Motion to Suspend the Rules and Pass",
+        "description": "Captain John E. Moran and Captain William Wylie Galt Armed Forces Reserve Center",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2016-04-18",
+        "time": "18:58:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 160,
+          "no": 0,
+          "present": 0,
+          "not_voting": 28,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 227,
+          "no": 0,
+          "present": 1,
+          "not_voting": 18,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 387,
+          "no": 0,
+          "present": 1,
+          "not_voting": 45
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 153,
+        "source": "http://clerk.house.gov/evs/2016/roll153.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll153.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/153.json",
+        "bill": {
+          "bill_id": "hr4570-114",
+          "number": "H.R.4570",
+          "sponsor_id": "M001188",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr4570.json",
+          "title": "To amend the Department of Agriculture program for research and extension grants to increase participation by women and underrepresented minorities in the fields of science, technology, engineering, and mathematics to redesignate the program as the 'Jeannette Rankin Women and Minorities in STEM Fields Program'.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+        },
+        "question": "On Motion to Suspend the Rules and Pass",
+        "description": "Jeannette Rankin--Women and Minorities in STEM Fields Program, 100 Years of Women in Congress Act",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2016-04-18",
+        "time": "18:50:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 157,
+          "no": 0,
+          "present": 0,
+          "not_voting": 31,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 220,
+          "no": 6,
+          "present": 2,
+          "not_voting": 18,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 377,
+          "no": 6,
+          "present": 2,
+          "not_voting": 48
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 152,
+        "source": "http://clerk.house.gov/evs/2016/roll152.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll152.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/152.json",
+        "bill": {
+          "bill_id": "hr2666-114",
+          "number": "H.R.2666",
+          "sponsor_id": "K000378",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr2666.json",
+          "title": "To prohibit the Federal Communications Commission from regulating the rates charged for broadband Internet access service.",
+          "latest_action": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 431."
+        },
+        "question": "On Passage",
+        "description": "No Rate Regulation of Broadband Internet Access Act",
+        "vote_type": "RECORDED VOTE",
+        "date": "2016-04-15",
+        "time": "11:26:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 5,
+          "no": 173,
+          "present": 0,
+          "not_voting": 10,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 236,
+          "no": 0,
+          "present": 0,
+          "not_voting": 10,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 241,
+          "no": 173,
+          "present": 0,
+          "not_voting": 19
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 151,
+        "source": "http://clerk.house.gov/evs/2016/roll151.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll151.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/151.json",
+        "bill": {
+          "bill_id": "hr2666-114",
+          "number": "H.R.2666",
+          "sponsor_id": "K000378",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr2666.json",
+          "title": "To prohibit the Federal Communications Commission from regulating the rates charged for broadband Internet access service.",
+          "latest_action": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 431."
+        },
+        "question": "On Agreeing to the Amendment",
+        "description": "McNerney of California Amendment No. 3",
+        "vote_type": "RECORDED VOTE",
+        "date": "2016-04-15",
+        "time": "11:02:00",
+        "result": "Failed",
+        "democratic": {
+          "yes": 172,
+          "no": 2,
+          "present": 0,
+          "not_voting": 14,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 1,
+          "no": 229,
+          "present": 0,
+          "not_voting": 16,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 173,
+          "no": 231,
+          "present": 0,
+          "not_voting": 29
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 150,
+        "source": "http://clerk.house.gov/evs/2016/roll150.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll150.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/150.json",
+        "bill": {
+          "bill_id": "hr2666-114",
+          "number": "H.R.2666",
+          "sponsor_id": "K000378",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr2666.json",
+          "title": "To prohibit the Federal Communications Commission from regulating the rates charged for broadband Internet access service.",
+          "latest_action": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 431."
+        },
+        "question": "On Agreeing to the Amendment",
+        "description": "Yarmuth of Kentucky Amendment No. 2",
+        "vote_type": "RECORDED VOTE",
+        "date": "2016-04-15",
+        "time": "10:56:00",
+        "result": "Failed",
+        "democratic": {
+          "yes": 175,
+          "no": 0,
+          "present": 0,
+          "not_voting": 13,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 4,
+          "no": 231,
+          "present": 0,
+          "not_voting": 11,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 179,
+          "no": 231,
+          "present": 0,
+          "not_voting": 23
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 149,
+        "source": "http://clerk.house.gov/evs/2016/roll149.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll149.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/149.json",
+        "bill": {
+          "bill_id": "hr3791-114",
+          "number": "H.R.3791",
+          "sponsor_id": "L000584",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr3791.json",
+          "title": "To raise the consolidated assets threshold under the small bank holding company policy statement, and for other purposes.",
+          "latest_action": "Committee on Banking, Housing, and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 114-366."
+        },
+        "question": "On Passage",
+        "description": "To raise the consolidated assets threshold under the small bank holding company policy statement, and for other purposes",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-14",
+        "time": "16:17:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 8,
+          "no": 170,
+          "present": 0,
+          "not_voting": 10,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 239,
+          "no": 1,
+          "present": 0,
+          "not_voting": 6,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 247,
+          "no": 171,
+          "present": 0,
+          "not_voting": 15
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 148,
+        "source": "http://clerk.house.gov/evs/2016/roll148.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll148.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/148.json",
+        "bill": {
+          "bill_id": "hr3791-114",
+          "number": "H.R.3791",
+          "sponsor_id": "L000584",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr3791.json",
+          "title": "To raise the consolidated assets threshold under the small bank holding company policy statement, and for other purposes.",
+          "latest_action": "Committee on Banking, Housing, and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 114-366."
+        },
+        "question": "Table Appeal of the Ruling of the Chair",
+        "description": "To raise the consolidated assets threshold under the small bank holding company policy statement, and for other purposes",
+        "vote_type": "RECORDED VOTE",
+        "date": "2016-04-14",
+        "time": "16:10:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 1,
+          "no": 177,
+          "present": 0,
+          "not_voting": 10,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 240,
+          "no": 0,
+          "present": 0,
+          "not_voting": 6,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 241,
+          "no": 177,
+          "present": 0,
+          "not_voting": 15
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 147,
+        "source": "http://clerk.house.gov/evs/2016/roll147.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll147.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/147.json",
+        "bill": {
+          "bill_id": "hr3791-114",
+          "number": "H.R.3791",
+          "sponsor_id": "L000584",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr3791.json",
+          "title": "To raise the consolidated assets threshold under the small bank holding company policy statement, and for other purposes.",
+          "latest_action": "Committee on Banking, Housing, and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 114-366."
+        },
+        "question": "On Agreeing to the Amendment",
+        "description": "Kelly of Illinois Part B Amendment No. 1",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-14",
+        "time": "15:45:00",
+        "result": "Failed",
+        "democratic": {
+          "yes": 165,
+          "no": 12,
+          "present": 0,
+          "not_voting": 11,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 0,
+          "no": 241,
+          "present": 0,
+          "not_voting": 5,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 165,
+          "no": 253,
+          "present": 0,
+          "not_voting": 15
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 146,
+        "source": "http://clerk.house.gov/evs/2016/roll146.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll146.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/146.json",
+        "bill": {
+          "bill_id": "hr3340-114",
+          "number": "H.R.3340",
+          "sponsor_id": "E000294",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr3340.json",
+          "title": "To place the Financial Stability Oversight Council and the Office of Financial Research under the regular appropriations process, to provide for certain quarterly reporting and public notice and comment requirements for the Office of Financial Research, and for other purposes.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+        },
+        "question": "On Passage",
+        "description": "Financial Stability Oversight Council Reform Act",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-14",
+        "time": "15:39:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 1,
+          "no": 178,
+          "present": 0,
+          "not_voting": 9,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 238,
+          "no": 1,
+          "present": 0,
+          "not_voting": 7,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 239,
+          "no": 179,
+          "present": 0,
+          "not_voting": 15
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 145,
+        "source": "http://clerk.house.gov/evs/2016/roll145.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll145.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/145.json",
+        "bill": {
+          "bill_id": "hr3340-114",
+          "number": "H.R.3340",
+          "sponsor_id": "E000294",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr3340.json",
+          "title": "To place the Financial Stability Oversight Council and the Office of Financial Research under the regular appropriations process, to provide for certain quarterly reporting and public notice and comment requirements for the Office of Financial Research, and for other purposes.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+        },
+        "question": "Table Appeal of the Ruling of the Chair",
+        "description": "Financial Stability Oversight Council Reform Act",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-14",
+        "time": "15:32:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 0,
+          "no": 176,
+          "present": 0,
+          "not_voting": 12,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 239,
+          "no": 0,
+          "present": 0,
+          "not_voting": 7,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 239,
+          "no": 176,
+          "present": 0,
+          "not_voting": 18
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 144,
+        "source": "http://clerk.house.gov/evs/2016/roll144.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll144.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/144.json",
+        "bill": {
+          "bill_id": "hres671-114",
+          "number": "H.RES.671",
+          "sponsor_id": "S001187",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hres671.json",
+          "title": "Providing for consideration of the bill (H.R. 3340) to place the Financial Stability Oversight Council and the Office of Financial Research under the regular appropriations process, to provide for certain quarterly reporting and public notice and comment requirements for the Office of Financial Research, and for other purposes, and providing for consideration of the bill (H.R. 3791) to raise the consolidated assets threshold under the small bank holding company policy statement, and for other purposes.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "question": "On Agreeing to the Resolution",
+        "description": "Providing for consideration of the bill (H.R. 3340) Financial Stability Oversight Council Reform Act and providing for consideration of the bill (H.R. 3791) to raise the consolidated assets threshold under the small bank holding company policy statement, and for other purposes",
+        "vote_type": "RECORDED VOTE",
+        "date": "2016-04-13",
+        "time": "14:12:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 0,
+          "no": 182,
+          "present": 0,
+          "not_voting": 6,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 242,
+          "no": 0,
+          "present": 0,
+          "not_voting": 4,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 242,
+          "no": 182,
+          "present": 0,
+          "not_voting": 9
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 143,
+        "source": "http://clerk.house.gov/evs/2016/roll143.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll143.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/143.json",
+        "bill": {
+          "bill_id": "hres671-114",
+          "number": "H.RES.671",
+          "sponsor_id": "S001187",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hres671.json",
+          "title": "Providing for consideration of the bill (H.R. 3340) to place the Financial Stability Oversight Council and the Office of Financial Research under the regular appropriations process, to provide for certain quarterly reporting and public notice and comment requirements for the Office of Financial Research, and for other purposes, and providing for consideration of the bill (H.R. 3791) to raise the consolidated assets threshold under the small bank holding company policy statement, and for other purposes.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "question": "On Ordering the Previous Question",
+        "description": "Providing for consideration of the bill (H.R. 3340) Financial Stability Oversight Council Reform Act and providing for consideration of the bill (H.R. 3791) to raise the consolidated assets threshold under the small bank holding company policy statement, and for other purposes",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-13",
+        "time": "14:06:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 0,
+          "no": 182,
+          "present": 0,
+          "not_voting": 6,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 243,
+          "no": 0,
+          "present": 0,
+          "not_voting": 3,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 243,
+          "no": 182,
+          "present": 0,
+          "not_voting": 8
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 142,
+        "source": "http://clerk.house.gov/evs/2016/roll142.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll142.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/142.json",
+        "bill": {
+          "bill_id": "hres672-114",
+          "number": "H.RES.672",
+          "sponsor_id": "B001248",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hres672.json",
+          "title": "Providing for consideration of the bill (H.R. 2666) to prohibit the Federal Communications Commission from regulating the rates charged for broadband Internet access service.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "question": "On Agreeing to the Resolution",
+        "description": "Providing for consideration of the bill (H.R. 2666) to prohibit the Federal Communications Commission from regulating the rates charged for broadband Internet access service",
+        "vote_type": "RECORDED VOTE",
+        "date": "2016-04-13",
+        "time": "13:59:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 1,
+          "no": 182,
+          "present": 0,
+          "not_voting": 5,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 241,
+          "no": 0,
+          "present": 0,
+          "not_voting": 5,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 242,
+          "no": 182,
+          "present": 0,
+          "not_voting": 9
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 141,
+        "source": "http://clerk.house.gov/evs/2016/roll141.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll141.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/141.json",
+        "bill": {
+          "bill_id": "hres672-114",
+          "number": "H.RES.672",
+          "sponsor_id": "B001248",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hres672.json",
+          "title": "Providing for consideration of the bill (H.R. 2666) to prohibit the Federal Communications Commission from regulating the rates charged for broadband Internet access service.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "question": "On Ordering the Previous Question",
+        "description": "Providing for consideration of the bill (H.R. 2666) to prohibit the Federal Communications Commission from regulating the rates charged for broadband Internet access service",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2016-04-13",
+        "time": "13:52:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 0,
+          "no": 182,
+          "present": 0,
+          "not_voting": 6,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 243,
+          "no": 0,
+          "present": 0,
+          "not_voting": 3,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 243,
+          "no": 182,
+          "present": 0,
+          "not_voting": 8
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 140,
+        "source": "http://clerk.house.gov/evs/2016/roll140.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll140.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/140.json",
+        "bill": {
+          "bill_id": "hr4676-114",
+          "number": "H.R.4676",
+          "sponsor_id": "R000583",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr4676.json",
+          "title": "To amend title 18, United States Code, to provide an additional tool to prevent certain frauds against veterans, and for other purposes.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on the Judiciary."
+        },
+        "question": "On Motion to Suspend the Rules and Pass, as Amended",
+        "description": "Preventing Crimes Against Veterans Act of 2016",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2016-04-12",
+        "time": "18:58:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 173,
+          "no": 0,
+          "present": 0,
+          "not_voting": 15,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 238,
+          "no": 0,
+          "present": 0,
+          "not_voting": 8,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 411,
+          "no": 0,
+          "present": 0,
+          "not_voting": 22
+        }
+      },
+      {
+        "congress": 114,
+        "chamber": "House",
+        "session": 2,
+        "roll_call": 139,
+        "source": "http://clerk.house.gov/evs/2016/roll139.xml",
+        "url": "http://clerk.house.gov/evs/2016/roll139.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/114/house/sessions/2/votes/139.json",
+        "bill": {
+          "bill_id": "hr1567-114",
+          "number": "H.R.1567",
+          "sponsor_id": "S000522",
+          "api_uri": "https://api.propublica.org/congress/v1/114/bills/hr1567.json",
+          "title": "To authorize a comprehensive, strategic approach for United States foreign assistance to developing countries to reduce global poverty and hunger, achieve food security and improved nutrition, promote inclusive, sustainable agricultural-led economic growth, improve nutritional outcomes, especially for women and children, build resilience among vulnerable populations, and for other purposes.",
+          "latest_action": "Read twice and referred to the Committee on Foreign Relations."
+        },
+        "question": "On Motion to Suspend the Rules and Pass, as Amended",
+        "description": "Global Food Security Act of 2016",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2016-04-12",
+        "time": "18:51:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 169,
+          "no": 0,
+          "present": 0,
+          "not_voting": 19,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 201,
+          "no": 33,
+          "present": 0,
+          "not_voting": 12,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 370,
+          "no": 33,
+          "present": 0,
+          "not_voting": 30
+        }
+      }
+    ]
+  }
+}
