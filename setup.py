@@ -1,4 +1,4 @@
-from setuptools import setup 
+from setuptools import setup, find_packages 
 
 setup(
     name="congress",
@@ -6,7 +6,7 @@ setup(
     url="https://github.com/thedataincubator/congress-api",
     author="TDI",
     license='MIT',
-    packages=['congress'],
+    packages=find_packages(),
     install_requires=[
         'requests',
         'pandas'
