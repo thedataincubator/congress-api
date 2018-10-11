@@ -13,7 +13,7 @@ class Votes:
         self._api_key = api_key
 
     def get_recent_votes(self,chamber,offset=0):
-        """Return the 20 most recent results, sorted by date and roll call number.
+        """Return the 20 most recent results, sorted by date and roll call number
 
         Parameters
         ----------
@@ -35,7 +35,7 @@ class Votes:
 
     def get_rollcall_votes(self,congress,chamber,ses_no,rcall_no):
         """
-        This returns roll call votes.
+        Return roll call votes
 
         Parameters
         ----------
@@ -64,7 +64,7 @@ class Votes:
 
     def get_votesbytype(self,congress,chamber,vote_type):
         """
-        This return votes by type
+        Return votes by type
 
         Parameters
         ----------
@@ -87,7 +87,7 @@ class Votes:
     
     def get_votesbydate(self,chamber,year,month):
         """
-        This returns all votes for one or both chambers in a particular month.
+        Return all votes for one or both chambers in a particular month
         
         Parameters
         ----------
@@ -112,7 +112,7 @@ class Votes:
 
     def get_nomination_votes(self,congress):
         """
-        This returns Senate votes on presidential nominations.
+        Return Senate votes on presidential nominations
         
         Parameters
         ----------
@@ -132,7 +132,7 @@ class Votes:
         
     def recent_expl(self,congress,offset=0):
         """
-        This returns personal explanations for missed or mistaken votes in the Congressional Record where these explanations can refer to a single vote or to multiple votes. 
+        Return personal explanations for missed or mistaken votes in the Congressional Record where these explanations can refer to a single vote or to multiple votes. 
         
         Parameters
         ----------
@@ -154,7 +154,7 @@ class Votes:
 
     def recent_expl_votes(self, congress, offset=0):
         """
-        This returns responses with explanations parsed to individual votes and have an additional category attribute describing the general reason for the absence or incorrect vote.
+        Return responses with explanations parsed to individual votes and have an additional category attribute describing the general reason for the absence or incorrect vote.
         
         Parameters
         ----------
@@ -177,7 +177,7 @@ class Votes:
         
     def recent_expl_bycat(self,congress,category,offset=0):
         """
-        This returns personal explanations for missed or mistaken votes in the Congressional Record 
+        Return personal explanations for missed or mistaken votes in the Congressional Record 
         
         Parameters
         ----------
@@ -203,7 +203,7 @@ class Votes:
 
     def recent_expl_byper(self,member_id,congress,offset=0):
         """
-        This return recent personal explanations by a specific member
+        Return recent personal explanations by a specific member
         
         Parameters
         ----------
@@ -228,7 +228,7 @@ class Votes:
     
     def recent_expl_votes_byper(self,member_id,congress,offset=0):
         """
-        This return recent personal explanations for missed or mistaken votes by a specific member
+        Return recent personal explanations for missed or mistaken votes by a specific member
         
         Parameters
         ----------
@@ -253,7 +253,7 @@ class Votes:
         
     def recent_expl_bycat_byper(self,congress,category,member_id,offset=0):
         """
-        This returns personal explanations for missed or mistaken votes in the Congressional Record 
+        Return personal explanations for missed or mistaken votes in the Congressional Record 
         
         Parameters
         ----------

@@ -12,7 +12,7 @@ class Congress:
         self._api_key = api_key
 
     def get_all_members(self, congress, chamber):
-        """Get a list of members of a particular chamber in a particular Congress
+        """Return a list of members of a particular chamber in a particular Congress
 
         Parameters
         ----------
@@ -33,7 +33,7 @@ class Congress:
         return client.get(congress, chamber, "members.json")
 
     def get_member(self, member_id):
-        """Get information for a particular member of Congress
+        """Return information for a particular member of Congress
 
         Parameters
         ----------
