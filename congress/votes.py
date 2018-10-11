@@ -132,7 +132,7 @@ class Votes:
         
     def recent_expl(self,congress,offset=0):
         """
-        Return personal explanations for missed or mistaken votes in the Congressional Record where these explanations can refer to a single vote or to multiple votes. 
+        Return personal explanations for missed or mistaken votes in the Congressional Record 
         
         Parameters
         ----------
@@ -154,7 +154,7 @@ class Votes:
 
     def recent_expl_votes(self, congress, offset=0):
         """
-        Return responses with explanations parsed to individual votes and have an additional category attribute describing the general reason for the absence or incorrect vote.
+        Return responses with explanations parsed to individual votes and an additional category describing the reason 
         
         Parameters
         ----------
