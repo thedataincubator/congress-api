@@ -2,6 +2,7 @@ from .base import Client, SingleListParser, BaseValidator, BaseParser
 
 class Votes:
     """Class for interacting with `Votes` endpoint of the Propublica Congress API
+
     Parameters
     ----------
     api_key : str
@@ -12,8 +13,7 @@ class Votes:
         self._api_key = api_key
 
     def get_recent_votes(self,chamber,offset=0):
-        """This request returns the 20 most recent results, 
-        sorted by date and roll call number
+        """Return the 20 most recent results, sorted by date and roll call number.
 
         Parameters
         ----------
@@ -35,6 +35,8 @@ class Votes:
 
     def get_rollcall_votes(self,congress,chamber,ses_no,rcall_no):
         """
+        This returns roll call votes.
+
         Parameters
         ----------
         congress : str
@@ -56,13 +58,14 @@ class Votes:
         client = Client(self._api_key, 
                         BaseParser(),
                         BaseValidator())
-        return client.get(congress,chamber,\
-                          "sessions",ses_no,"votes",\
+        return client.get(congress,chamber, 
+                          "sessions",ses_no,"votes", 
                           rcall_no+".json")
 
     def get_votesbytype(self,congress,chamber,vote_type):
         """
         This return votes by type
+
         Parameters
         ----------
         congress : str
@@ -85,6 +88,7 @@ class Votes:
     def get_votesbydate(self,chamber,year,month):
         """
         This returns all votes for one or both chambers in a particular month.
+        
         Parameters
         ----------
         chamber : str
@@ -103,12 +107,13 @@ class Votes:
         client = Client(self._api_key, 
                         BaseParser(),
                         BaseValidator())
-        return client.get(chamber,"votes",\
+        return client.get(chamber,"votes", 
                           year,month+".json") 
 
     def get_nomination_votes(self,congress):
         """
         This returns Senate votes on presidential nominations.
+        
         Parameters
         ----------
         congress : str
@@ -127,10 +132,8 @@ class Votes:
         
     def recent_expl(self,congress,offset=0):
         """
-        This returns personal explanations for missed or 
-        mistaken votes in the Congressional Record 
-        These explanations can refer to a single vote or 
-        to multiple votes. 
+        This returns personal explanations for missed or mistaken votes in the Congressional Record where these explanations can refer to a single vote or to multiple votes. 
+        
         Parameters
         ----------
         congress : str
@@ -151,9 +154,8 @@ class Votes:
 
     def recent_expl_votes(self, congress, offset=0):
         """
-        This returns responses with explanations parsed to individual votes 
-        and have an additional category attribute describing the general reason
-        for the absence or incorrect vote.
+        This returns responses with explanations parsed to individual votes and have an additional category attribute describing the general reason for the absence or incorrect vote.
+        
         Parameters
         ----------
         congress : str
@@ -170,13 +172,13 @@ class Votes:
         client = Client(self._api_key, 
                         BaseParser(),
                         BaseValidator())
-        return client.get(congress,"explanations",\
+        return client.get(congress,"explanations", 
                           "votes.json",offset=offset)
         
     def recent_expl_bycat(self,congress,category,offset=0):
         """
-        This returns personal explanations for missed 
-        or mistaken votes in the Congressional Record 
+        This returns personal explanations for missed or mistaken votes in the Congressional Record 
+        
         Parameters
         ----------
         congress : str
@@ -196,12 +198,13 @@ class Votes:
         client = Client(self._api_key, 
                         BaseParser(), 
                         BaseValidator())
-        return client.get(congress,"explanations","votes",\
+        return client.get(congress,"explanations","votes", 
                           category+".json",offset=offset)
 
     def recent_expl_byper(self,member_id,congress,offset=0):
         """
         This return recent personal explanations by a specific member
+        
         Parameters
         ----------
         congress : str
@@ -220,13 +223,13 @@ class Votes:
         client = Client(self._api_key, 
                         BaseParser(),
                         BaseValidator())
-        return client.get("members",member_id,"explanations",\
+        return client.get("members",member_id,"explanations", 
                           congress+".json",offset=offset)
     
     def recent_expl_votes_byper(self,member_id,congress,offset=0):
         """
-        This return recent personal explanations for missed or mistaken votes 
-        by a specific member
+        This return recent personal explanations for missed or mistaken votes by a specific member
+        
         Parameters
         ----------
         congress : str
@@ -245,13 +248,13 @@ class Votes:
         client = Client(self._api_key, 
                         BaseParser(),
                         BaseValidator())
-        return client.get("members",member_id,"explanations",\
+        return client.get("members",member_id,"explanations", 
                           congress,"votes.json",offset=offset)
         
     def recent_expl_bycat_byper(self,congress,category,member_id,offset=0):
         """
-        This returns personal explanations for missed 
-        or mistaken votes in the Congressional Record 
+        This returns personal explanations for missed or mistaken votes in the Congressional Record 
+        
         Parameters
         ----------
         congress : str
@@ -273,6 +276,6 @@ class Votes:
         client = Client(self._api_key, 
                         BaseParser(),
                         BaseValidator())
-        return client.get("members",member_id,"explanations",\
-                          congress,"votes",\
+        return client.get("members",member_id,"explanations", 
+                          congress,"votes", 
                           category+".json",offset=offset) 
