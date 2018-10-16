@@ -1,5 +1,6 @@
 from .base import Client, SingleListParser, BaseValidator, BaseParser
 
+
 class Votes:
     """Class for interacting with `Votes` endpoint of the Propublica Congress API
 
@@ -81,12 +82,14 @@ class Votes:
         pandas.DataFrame
         """
         if vote_type not in ['missed', 'party', 'loneno', 'perfect']:
-            raise ValueError('vote_type can only be one of [missed,party,loneno,perfect]')
+            raise ValueError('vote_type can only be one of '
+                             '[missed,party,loneno,perfect]')
 
         client = Client(self._api_key,
                         SingleListParser("members"),
                         BaseValidator())
-        return client.get(congress, chamber, "votes", "{}.json".format(vote_type))
+        return client.get(congress, chamber,
+                          "votes", "{}.json".format(vote_type))
 
     def get_votesbydate(self, chamber, year, month):
         """
@@ -135,7 +138,7 @@ class Votes:
 
     def recent_expl(self, congress, offset=0):
         """
-        Return personal explanations for missed or mistaken votes in the Congressional Record
+        Return personal explanations for missed or mistaken votes.
 
         Parameters
         ----------
@@ -157,19 +160,18 @@ class Votes:
 
     def recent_expl_votes(self, congress, offset=0):
         """
-        Return explanations parsed to individual votes and an extra category for the reason
-
+        Return explanations parsed to individual votes and reason.
         Parameters
         ----------
         congress : str
             From 110 to 115
         offset : int
-            This value offsets the returns of recent results
+            This value offsets the returns of recent results.
 
         Returns
         -------
         dict
-            A dictionary containing the json response
+            A dictionary containing the json response.
         """
 
         client = Client(self._api_key,
@@ -180,7 +182,7 @@ class Votes:
 
     def recent_expl_bycat(self, congress, category, offset=0):
         """
-        Return personal explanations for missed or mistaken votes in the Congressional Record
+        Return personal explanations for missed or mistaken votes.
 
         Parameters
         ----------
@@ -191,12 +193,12 @@ class Votes:
             See all parameters at
             https://projects.propublica.org/api-docs/congress-api/votes/#get-recent-personal-explanation-votes-by-category
         offset : int
-            This value offsets the returns of recent results
+            This value offsets the returns of recent results.
 
         Returns
         -------
         dict
-            A dictionary containing the json response
+            A dictionary containing the json response.
         """
 
         client = Client(self._api_key,
@@ -207,7 +209,7 @@ class Votes:
 
     def recent_expl_byper(self, member_id, congress, offset=0):
         """
-        Return recent personal explanations by a specific member
+        Return recent personal explanations by a specific member.
 
         Parameters
         ----------
@@ -221,7 +223,7 @@ class Votes:
         Returns
         -------
         dict
-            A dictionary containing the json response
+            A dictionary containing the json response.
         """
 
         client = Client(self._api_key,
@@ -232,7 +234,7 @@ class Votes:
 
     def recent_expl_votes_byper(self, member_id, congress, offset=0):
         """
-        Return recent personal explanations for missed or mistaken votes by a specific member
+        Return recent personal explanations for missed or mistaken votes.
 
         Parameters
         ----------
@@ -257,7 +259,7 @@ class Votes:
 
     def recent_expl_bycat_byper(self, congress, category, member_id, offset=0):
         """
-        Return personal explanations for missed or mistaken votes in the Congressional Record
+        Return personal explanations for missed or mistaken votes.
 
         Parameters
         ----------
@@ -270,12 +272,12 @@ class Votes:
         member_id : str
             This can be retrieved from a member list request.
         offset : int
-            This value offsets the returns of recent results
+            This value offsets the returns of recent results.
 
         Returns
         -------
         dict
-            A dictionary containing the json response
+            A dictionary containing the json response.
         """
 
         client = Client(self._api_key,

@@ -3,15 +3,18 @@ import responses
 from congress import Votes, Client, BaseParser, BaseValidator
 import pytest
 
+
 @pytest.fixture
 def votes():
     api_key = 'testing_key'
     return Votes(api_key)
 
+
 @pytest.fixture
 def client():
     api_key = 'testing_key'
     return Client(api_key, BaseParser(), BaseValidator())
+
 
 @pytest.fixture
 def read_json():
@@ -21,6 +24,7 @@ def read_json():
         return json_data
 
     return json_reader
+
 
 @responses.activate
 def test_get_recent_votes(votes, client, read_json):
@@ -37,6 +41,7 @@ def test_get_recent_votes(votes, client, read_json):
     recent_votes_dict = votes.get_recent_votes(chamber)
     assert recent_votes_dict == mock_json
 
+
 @responses.activate
 def test_get_rollcall_votes(votes, client, read_json):
     congress_no = '115'
@@ -51,8 +56,10 @@ def test_get_rollcall_votes(votes, client, read_json):
                                "sessions", session_no, "votes",
                                "{}.json".format(roll_call_no))
     responses.add(responses.GET, api_url, json=mock_json, status=200)
-    rocall_votes = votes.get_rollcall_votes(congress_no, chamber, session_no, roll_call_no)
+    rocall_votes = votes.get_rollcall_votes(congress_no, chamber,
+                                            session_no, roll_call_no)
     assert rocall_votes == mock_json
+
 
 @responses.activate
 def test_get_votesbytype(votes, client, read_json):
@@ -72,6 +79,7 @@ def test_get_votesbytype(votes, client, read_json):
     with pytest.raises(ValueError):
         votes.get_votesbytype(congress_no, chamber, 'dummy_name')
 
+
 @responses.activate
 def test_get_votesbydate(votes, client, read_json):
     chamber = 'senate'
@@ -87,6 +95,7 @@ def test_get_votesbydate(votes, client, read_json):
     votesbydate = votes.get_votesbydate(chamber, year, month)
     assert votesbydate == mock_json
 
+
 @responses.activate
 def test_get_nomination_votes(votes, client, read_json):
     congress_no = '110'
@@ -99,6 +108,7 @@ def test_get_nomination_votes(votes, client, read_json):
     nomination_votes = votes.get_nomination_votes(congress_no)
     assert nomination_votes == mock_json
 
+
 @responses.activate
 def test_recent_expl(votes, client, read_json):
     congress_no = '114'
@@ -110,6 +120,7 @@ def test_recent_expl(votes, client, read_json):
     responses.add(responses.GET, api_url, json=mock_json, status=200)
     explanation = votes.recent_expl(congress_no)
     assert explanation == mock_json
+
 
 @responses.activate
 def test_recent_expl_votes(votes, client, read_json):
@@ -124,6 +135,7 @@ def test_recent_expl_votes(votes, client, read_json):
     explanation = votes.recent_expl_votes(congress_no)
     assert explanation == mock_json
 
+
 @responses.activate
 def test_recent_expl_bycat(votes, client, read_json):
     congress_no = '115'
@@ -132,11 +144,12 @@ def test_recent_expl_bycat(votes, client, read_json):
     json_sample_name = 'test/api_response_samples/recent_expl_bycat.json'
     mock_json = read_json(json_sample_name)
 
-    api_url = client.build_url(congress_no, "explanations", "votes",\
-                             "{}.json?offset=0".format(category))
+    api_url = client.build_url(congress_no, "explanations", "votes",
+                               "{}.json?offset=0".format(category))
     responses.add(responses.GET, api_url, json=mock_json, status=200)
     explanation = votes.recent_expl_bycat(congress_no, category)
     assert explanation == mock_json
+
 
 @responses.activate
 def test_recent_expl_votes_byper(votes, client, read_json):
@@ -153,6 +166,7 @@ def test_recent_expl_votes_byper(votes, client, read_json):
     explanation = votes.recent_expl_votes_byper(member_id, congress_no)
     assert explanation == mock_json
 
+
 @responses.activate
 def test_recent_expl_bycat_byper(votes, client, read_json):
     congress_no = '115'
@@ -167,5 +181,6 @@ def test_recent_expl_bycat_byper(votes, client, read_json):
                                "{}.json?offset=0".format(category))
     print(api_url)
     responses.add(responses.GET, api_url, json=mock_json, status=200)
-    explanation = votes.recent_expl_bycat_byper(congress_no, category, member_id)
+    explanation = votes.recent_expl_bycat_byper(congress_no,
+                                                category, member_id)
     assert explanation == mock_json
